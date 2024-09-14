@@ -1,0 +1,9 @@
+id: hummingbot
+name: "Hummingbot"
+version: "1.0.0"
+description: "A fork of Hummingbot for market making and algorithmic trading."
+repository: "https://github.com/sanduber/hummingbot"
+author: "sanduber"
+support: "https://github.com/sanduber/hummingbot/issues"
+category: "finance"
+icon: "icon.png"
