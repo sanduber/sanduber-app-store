@@ -1,9 +1,30 @@
+manifestVersion: 1
 id: hummingbot
-name: "Hummingbot"
+name: Hummingbot
+tagline: "Advanced cryptocurrency trading bot"
+icon: https://example.com/hummingbot-icon.svg  # Replace with an appropriate icon URL
+category: Finance
 version: "1.0.0"
-description: "A fork of Hummingbot for market making and algorithmic trading."
-repository: "https://github.com/sanduber/hummingbot"
-author: "sanduber"
-support: "https://github.com/sanduber/hummingbot/issues"
-category: "finance"
-icon: "icon.png"
+port: 8080
+description: >-
+  Hummingbot is an open-source crypto trading bot that allows you to automate your trading strategies and arbitrage opportunities.
+
+
+  Built with high-performance capabilities for market-making and arbitrage strategies.
+
+developer: Your Name
+website: https://github.com/sanduber/hummingbot
+submitter: Your Name
+submission: https://github.com/sanduber/hummingbot
+repo: https://github.com/sanduber/hummingbot
+support: https://github.com/sanduber/hummingbot/issues
+gallery:
+  - https://i.imgur.com/yourImage1.jpeg
+  - https://i.imgur.com/yourImage2.jpeg
+  - https://i.imgur.com/yourImage3.jpeg
+releaseNotes: >-
+  Initial release of Hummingbot for Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
