@@ -1,9 +1,30 @@
+manifestVersion: 1
 id: hummingbot-dashboard
-name: "Hummingbot Dashboard"
+name: Hummingbot Dashboard
+tagline: "Monitor and manage your Hummingbot instances"
+icon: https://example.com/dashboard-icon.svg  # Replace with an appropriate icon URL
+category: Finance
 version: "1.0.0"
-description: "A dashboard for monitoring and managing Hummingbot instances."
-repository: "https://github.com/sanduber/dashboard"
-author: "sanduber"
-support: "https://github.com/sanduber/dashboard/issues"
-category: "finance"
-icon: "icon.png"  # Make sure to place an appropriate icon file in the app directory
+port: 3000
+description: >-
+  A React.js dashboard for visualizing and managing Hummingbot instances.
+
+
+  Features include real-time updates and management interfaces for trading strategies.
+
+developer: Your Name
+website: https://github.com/sanduber/dashboard
+submitter: Your Name
+submission: https://github.com/sanduber/dashboard
+repo: https://github.com/sanduber/dashboard
+support: https://github.com/sanduber/dashboard/issues
+gallery:
+  - https://i.imgur.com/yourImage1.jpeg
+  - https://i.imgur.com/yourImage2.jpeg
+  - https://i.imgur.com/yourImage3.jpeg
+releaseNotes: >-
+  Initial release of Hummingbot Dashboard for Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
