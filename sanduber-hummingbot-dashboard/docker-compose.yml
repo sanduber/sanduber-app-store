@@ -1,14 +1,21 @@
-version: '3.7'
+version: "3.7"
 
 services:
-  dashboard:
+  app_proxy:
+    environment:
+      APP_HOST: dashboard_server_1
+      APP_PORT: 3000
+
+  server:
     build:
-      context: https://github.com/sanduber/dashboard.git  # Your dashboard repo
-      dockerfile: Dockerfile  
-    container_name: dashboard
-      ports:
+      context: https://github.com/sanduber/dashboard.git
+      dockerfile: Dockerfile
+    user: "1000:1000"
+    init: true
+    ports:
       - "8501:8501"
     environment:
         - AUTH_SYSTEM_ENABLED=True
         - BACKEND_API_HOST=backend-api
         - BACKEND_API_PORT=8000
+
