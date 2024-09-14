@@ -1,0 +1,9 @@
+id: hummingbot-dashboard
+name: "Hummingbot Dashboard"
+version: "1.0.0"
+description: "A dashboard for monitoring and managing Hummingbot instances."
+repository: "https://github.com/sanduber/dashboard"
+author: "sanduber"
+support: "https://github.com/sanduber/dashboard/issues"
+category: "finance"
+icon: "icon.png"  # Make sure to place an appropriate icon file in the app directory
