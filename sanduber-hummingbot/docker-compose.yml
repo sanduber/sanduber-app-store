@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  hummingbot:
+    build:
+      context: https://github.com/sanduber/hummingbot.git 
+      dockerfile: Dockerfile  
+    container_name: hummingbot
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./conf:/conf
+      - ./logs:/logs
+      - ./data:/data
+    environment:
+      - CONFIG_FILE=config.yml
+      - STRATEGY=arbitrage
